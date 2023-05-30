@@ -1,0 +1,78 @@
+.transaction_card {
+    padding: 18px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+    height: 96px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.card_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 15px;
+    color: #848484;
+}
+
+.card_value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #303031;
+    margin-top: 20px;
+}
+
+.change_section {
+    display: flex;
+    align-items: center;
+}
+
+.card_change_section {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.card_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 15px;
+    color: #848484;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.percent {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 15px;
+    color: #3DD26A;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@media (min-width : 300px) and (max-width : 1024px) {
+    .transaction_card {
+        width: 300px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,66 @@
+.add_expense_main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 565px;
+    width: 450px;
+    margin-left: 500px;
+    margin-top: 25px;
+    padding: 30px;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+}
+
+.add_expense_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    color: #303031;
+    margin-bottom: 0px;
+}
+
+.title_input,
+.value_input {
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+}
+
+.add {
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.category_dropdown {
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+}
+
+@media (min-width : 240px) and (max-width : 768px) {
+    .add_expense_main {
+        margin-top: 20vh;
+        margin-left: 3.5vw;
+        width: 300px;
+
+    }
+
+    
+
+    .title_input,
+    .value_input {
+        font-size: 18px;
+    }
+    .category_dropdown {
+        font-size: 18px;
+    }
+}

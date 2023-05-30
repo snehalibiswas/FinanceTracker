@@ -1,0 +1,54 @@
+.bifurcation_main_container {
+    padding: 0 18px 0 18px;
+}
+
+.bifurcation_heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #303031;
+    margin-top: 13px;
+}
+
+.bifurcation_subheading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 15px;
+    color: #6f6e6e;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.bifurcation_sub_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bifurcation_value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #303031;
+    margin-top: 10px;
+    /* margin-right: 20px; */
+}
+
+@media (min-width : 300px) and (max-width : 1024px) {
+    .bifurcation_heading {
+        font-size: 20px;
+    }
+
+    .bifurcation_subheading {
+        font-size: 14px;
+    }
+
+    .bifurcation_value {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+.dashboard {
+    margin: 0 40px 0 40px;
+}
+
+.filter_options {
+    display: flex;
+}
+
+.filter_option {
+    margin-right: 50px;
+}
+
+.filter_heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+    color: #303031;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.filter_option > label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #303031;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.filters {
+    margin-bottom: 20px;
+}
+
+@media (min-width : 300px) and (max-width : 1024px) {
+    .filter_options {
+        flex-direction: column;
+    }
+    .table > tbody > tr {
+        font-size: 10px;
+    }
+    .table > thead > tr > th {
+        font-size: 13px;
+    }
+}
