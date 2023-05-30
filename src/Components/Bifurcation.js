@@ -111,37 +111,37 @@ function Bifurcation() {
     }
     return (
         <div className='bifurcation_main_container'>
-            <p className='bifurcation_heading'>Transactions</p>
+            <p className='bifurcation_heading'>Finances</p>
             <div>
                 <p className='bifurcation_subheading'>Paytm Wallet</p>
                 <div className='bifurcation_sub_container'>
-                    <p className='bifurcation_value'>Total Income - <span style={{ color: "green" }}>₹{paytmIncomeTotal}</span></p>
-                    <p className='bifurcation_value'>Total Saved - <span style={{ color: "orange" }}>₹{pstotal}</span></p>
-                    <p className='bifurcation_value'>Total Expended - <span style={{ color: "red" }}>₹{paytmExpTotal}</span></p>
+                    <p className='bifurcation_value'>Balance - <span style={{ color: "orange" }}>₹{pstotal}</span></p>
+                    <p className='bifurcation_value'>Credit - <span style={{ color: "green" }}>₹{paytmIncomeTotal}</span></p>
+                    <p className='bifurcation_value'>Debit - <span style={{ color: "red" }}>₹{paytmExpTotal}</span></p>
                 </div>
             </div>
             <div>
                 <p className='bifurcation_subheading'>GPay</p>
                 <div className='bifurcation_sub_container'>
-                    <p className='bifurcation_value'>Total Income - <span style={{ color: "green" }}>₹{gpayIncomeTotal}</span></p>
-                    <p className='bifurcation_value'>Total Saved - <span style={{ color: "orange" }}>₹{gstotal}</span></p>
-                    <p className='bifurcation_value'>Total Expended - <span style={{ color: "red" }}>₹{gpayExpTotal}</span></p>
+                    <p className='bifurcation_value'>Balance - <span style={{ color: "orange" }}>₹{gstotal}</span></p>
+                    <p className='bifurcation_value'>Credit - <span style={{ color: "green" }}>₹{gpayIncomeTotal}</span></p>
+                    <p className='bifurcation_value'>Debit - <span style={{ color: "red" }}>₹{gpayExpTotal}</span></p>
                 </div>
             </div>
             <div>
                 <p className='bifurcation_subheading'>Debit Card</p>
                 <div className='bifurcation_sub_container'>
-                    <p className='bifurcation_value'>Total Income - <span style={{ color: "green" }}>₹{debitCardIncomeTotal}</span></p>
-                    <p className='bifurcation_value'>Total Saved - <span style={{ color: "orange" }}>₹{dcstotal}</span></p>
-                    <p className='bifurcation_value'>Total Expended - <span style={{ color: "red" }}>₹{debitCardExpTotal}</span></p>
+                    <p className='bifurcation_value'>Balance - <span style={{ color: "orange" }}>₹{dcstotal}</span></p>
+                    <p className='bifurcation_value'>Credit - <span style={{ color: "green" }}>₹{debitCardIncomeTotal}</span></p>
+                    <p className='bifurcation_value'>Debit - <span style={{ color: "red" }}>₹{debitCardExpTotal}</span></p>
                 </div>
             </div>
             <div>
                 <p className='bifurcation_subheading'>Cash</p>
                 <div className='bifurcation_sub_container'>
-                    <p className='bifurcation_value'>Total Income - <span style={{ color: "green" }}>₹{cashIncomeTotal}</span></p>
-                    <p className='bifurcation_value'>Total Saved - <span style={{ color: "orange" }}>₹{cstotal}</span></p>
-                    <p className='bifurcation_value'>Total Expended - <span style={{ color: "red" }}>₹{cashExpTotal}</span></p>
+                    <p className='bifurcation_value'>Balance - <span style={{ color: "orange" }}>₹{cstotal}</span></p>
+                    <p className='bifurcation_value'>Credit - <span style={{ color: "green" }}>₹{cashIncomeTotal}</span></p>
+                    <p className='bifurcation_value'>Debit - <span style={{ color: "red" }}>₹{cashExpTotal}</span></p>
                 </div>
             </div>
         </div>
