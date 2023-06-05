@@ -77,3 +77,10 @@ Run the app
 ```
 npm start
 ```
+
+## Usage of GitHub CoPilot
+- It was used to generate the filters for the `Expenses Dashboard` page
+- Used to generate this README.md file
+- In `home ` page, it was used to generate the code we used to fetch data from the database and update the state variables
+- Helped in generating media queries for the `home` page which we used to make the website responsive
+- Helped in proper usage of `useState` and `useEffect` hooks
